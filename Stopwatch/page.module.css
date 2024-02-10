@@ -1,0 +1,32 @@
+.time {
+    font-size: 32px;
+    line-height: 38px;
+    text-align: center;
+}
+
+.buttonWrapper {
+    display: flex;
+    margin-top: 20px;
+    align-items: center;
+    gap: 16px;
+}
+
+.buttons {
+    height: 35px;
+    width: 95px;
+    font-size: 24px;
+}
+
+.buttons:hover {
+    cursor: pointer;
+}
+
+.startButton {
+    background-color: #4c844c;
+    color: #ffffff;
+}
+
+.resetButton {
+    background-color: #ff0000;
+    color: #ffffff;
+}
