@@ -1,0 +1,50 @@
+.wrapper {
+    width: 300px;
+    padding: 30px;
+    border-radius: 8px;
+    background-color: #afa29e;
+}
+
+.numberInput {
+    background-color: #dfd9d1;
+    font-size: 22px;
+    line-height: 24px;
+    height: 28px;
+    width: 100%;
+    margin-bottom: 24px;
+}
+
+.actionButtons {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 24px;
+}
+
+.actionButton {
+    height: 40px;
+    border: none;
+    width: 100%;
+    background-color: #F2A33C;
+    border-radius: 4px;
+}
+
+.actionButton:hover {
+    cursor: pointer;
+}
+
+.actionButton:active {
+    background-color: #c2822e;
+}
+
+.actionButtonSelected {
+    border: 2px solid black;
+}
+
+.performButton {
+    background-color: #f2733c;
+}
+
+.performButton:active {
+    background-color: #c95828;
+}
