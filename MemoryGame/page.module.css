@@ -1,0 +1,54 @@
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    align-items: center;
+}
+
+.timer {
+    font-size: 32px;
+    line-height: 36px;
+}
+
+.levelsWrapper {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.possibleRoute {
+    height: 70px;
+    width: 70px;
+    border: 2px solid black;
+    border-bottom-width: 10px ;
+}
+
+.clickableRoute {
+    cursor: pointer;
+}
+
+.correctRoute {
+    background-color: green;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
